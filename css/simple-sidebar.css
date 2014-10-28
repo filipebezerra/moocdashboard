@@ -77,4 +77,8 @@
         transition: 0s;
         left: 200px;
     }
+
+    #search-group {
+        width: 328px;
+    }
 }

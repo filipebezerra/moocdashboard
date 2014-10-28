@@ -6,6 +6,10 @@
 
 /* Toggle Styles */
 
+/*
+ * Toggle Button: http://bootsnipp.com/snippets/featured/sidebar-navigation-with-scrollspy
+ */
+
 #wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
@@ -95,6 +99,26 @@
     background: none;
 }
 
+.content-header {
+    height: 65px;
+    line-height: 65px;
+}
+
+.content-header h1 {
+    margin: 0;
+    margin-left: 20px;
+    line-height: 65px;
+    display: inline-block;
+}
+
+#menu-toggle {
+    text-decoration: none;
+}
+
+.btn-menu {
+    color: #000;
+}
+
 @media(min-width:768px) {
     #wrapper {
         padding-left: 250px;
@@ -119,5 +143,9 @@
     #wrapper.toggled #page-content-wrapper {
         position: relative;
         margin-right: 0;
+    }
+
+    #menu-toggle {
+        display: inline-block;
     }
 }
